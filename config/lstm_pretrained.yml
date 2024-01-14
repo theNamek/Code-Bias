@@ -1,0 +1,14 @@
+---
+batch_size: 1
+epochs: 10
+bert_lr: 1.0e-5
+classifier_lr: 1.0e-5
+
+lm: lstm
+hidden_dim: 100
+pretrained: 1
+
+# code_model: codegen
+code_model: combine
+# logdir: codegen_log
+logdir: lstm_pretrain_combine_log
