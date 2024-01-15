@@ -18,3 +18,15 @@ Random), an LSTM classifier with pre-trained word embeddings (LSTM Pretrain), an
 We conduct social bias analysis on three pre-trained code generation models with different quantities
 of parameters: Codex (100B+), InCoder (1.3B), InCoder (6.7B), CodeGen (350M), CodeGen (2.7B),
 and CodeGen (6.1B).
+
+## Citation
+```bibtex
+@misc{liu2023uncovering,
+      title={Uncovering and Quantifying Social Biases in Code Generation}, 
+      author={Yan Liu and Xiaokang Chen and Yan Gao and Zhe Su and Fengji Zhang and Daoguang Zan and Jian-Guang Lou and Pin-Yu Chen and Tsung-Yi Ho},
+      year={2023},
+      eprint={2305.15377},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
